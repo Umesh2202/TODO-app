@@ -1,10 +1,10 @@
 import { c as create_ssr_component, e as escape, d as null_to_empty, b as subscribe, f as each, h as add_attribute, v as validate_component } from "../../chunks/index.js";
 import { w as writable } from "../../chunks/index2.js";
+import axios from "axios";
 const tasks = writable([]);
 const fetchTasks = async () => {
-  const data = await fetch("http://localhost:5000/read");
-  const res = await data.json();
-  tasks.set(res);
+  const data = await axios.get("https://node-todo.up.railway.app/read");
+  tasks.set(data.data);
 };
 fetchTasks();
 const TodoItem_svelte_svelte_type_style_lang = "";
