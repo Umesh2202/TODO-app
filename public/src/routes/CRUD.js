@@ -1,11 +1,11 @@
 const get_data = async () => {
-	let data = await fetch('http://localhost:5000/read');
+	let data = await fetch('https://node-todo.up.railway.app/read');
 	data = await data.json();
 	return data;
 };
 
 const write_data = async (/** @type {string} */ value) => {
-	await fetch('http://localhost:5000/write', {
+	await fetch('https://node-todo.up.railway.app/write', {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json'
@@ -17,7 +17,7 @@ const write_data = async (/** @type {string} */ value) => {
 };
 
 const delete_data = async (/** @type {any} */ todoid) => {
-	await fetch(`http://localhost:5000/delete/${todoid}`, {
+	await fetch(`https://node-todo.up.railway.app/delete/${todoid}`, {
 		method: 'DELETE',
 		headers: {
 			'Content-Type': 'application/json'
