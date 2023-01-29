@@ -40,8 +40,6 @@ declare module '$env/static/private' {
 	export const dp0: string;
 	export const DriverData: string;
 	export const EDITOR: string;
-	export const FPS_BROWSER_APP_PROFILE_STRING: string;
-	export const FPS_BROWSER_USER_PROFILE_STRING: string;
 	export const GIT_ASKPASS: string;
 	export const HOME: string;
 	export const HOMEDRIVE: string;
@@ -92,7 +90,6 @@ declare module '$env/static/private' {
 	export const PSModulePath: string;
 	export const PUBLIC: string;
 	export const RlsSvcPort: string;
-	export const SESSIONNAME: string;
 	export const SystemDrive: string;
 	export const SystemRoot: string;
 	export const TEMP: string;
@@ -110,6 +107,9 @@ declare module '$env/static/private' {
 	export const VSCODE_GIT_IPC_HANDLE: string;
 	export const VSCODE_INJECTION: string;
 	export const windir: string;
+	export const WSLENV: string;
+	export const WT_PROFILE_ID: string;
+	export const WT_SESSION: string;
 }
 
 /**
@@ -153,8 +153,6 @@ declare module '$env/dynamic/private' {
 		dp0: string;
 		DriverData: string;
 		EDITOR: string;
-		FPS_BROWSER_APP_PROFILE_STRING: string;
-		FPS_BROWSER_USER_PROFILE_STRING: string;
 		GIT_ASKPASS: string;
 		HOME: string;
 		HOMEDRIVE: string;
@@ -205,7 +203,6 @@ declare module '$env/dynamic/private' {
 		PSModulePath: string;
 		PUBLIC: string;
 		RlsSvcPort: string;
-		SESSIONNAME: string;
 		SystemDrive: string;
 		SystemRoot: string;
 		TEMP: string;
@@ -223,6 +220,9 @@ declare module '$env/dynamic/private' {
 		VSCODE_GIT_IPC_HANDLE: string;
 		VSCODE_INJECTION: string;
 		windir: string;
+		WSLENV: string;
+		WT_PROFILE_ID: string;
+		WT_SESSION: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: string]: string | undefined;
 	}
