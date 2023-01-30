@@ -22,7 +22,7 @@
 	};
 
 	const deletetodo = () => {
-		const item = document.getElementsByClassName('item');
+		// const item = document.getElementsByClassName('item');
 		delete_flag = true;
 		delete_data(task['id']);
 		displayTasks = displayTasks.filter((el) => el.id !== task['id']);

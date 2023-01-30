@@ -1,11 +1,12 @@
+import axios from 'axios';
+
 const get_data = async () => {
-	let data = await fetch('https://node-todo.up.railway.app/read');
-	data = await data.json();
-	return data;
+	let data = await axios.get('https://node-todo.up.railway.app/read');
+	return data.data;
 };
 
 const write_data = async (/** @type {string} */ value) => {
-	await fetch('https://node-todo.up.railway.app/write', {
+	await axios.post('https://node-todo.up.railway.app/write', {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json'
@@ -17,7 +18,7 @@ const write_data = async (/** @type {string} */ value) => {
 };
 
 const delete_data = async (/** @type {any} */ todoid) => {
-	await fetch(`https://node-todo.up.railway.app/delete/${todoid}`, {
+	await axios.delete(`https://node-todo.up.railway.app/delete/${todoid}`, {
 		method: 'DELETE',
 		headers: {
 			'Content-Type': 'application/json'
