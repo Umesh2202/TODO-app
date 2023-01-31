@@ -1,11 +1,11 @@
 import { writable } from 'svelte/store';
-import axios from 'axios';
+import { get_data } from './CRUD';
 
 export const tasks = writable([]);
 
 const fetchTasks = async () => {
-	const data = await axios.get('https://node-todo.up.railway.app/read');
-	tasks.set(data.data);
+	const data = await get_data();
+	tasks.set(data);
 };
 
 fetchTasks();

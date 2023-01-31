@@ -23,3 +23,5 @@ _output
 /types
 .eslintcache
 .prettierignore
+.eslintignore
+.eslintrc.cjs

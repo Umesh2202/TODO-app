@@ -1,17 +1,17 @@
 <script>
-	import { onMount } from 'svelte';
 	import TodoItem from './TodoItem.svelte';
 	import { tasks } from '../stores.js';
 	import { get_data, write_data } from '../CRUD';
+	import { onMount } from 'svelte';
 
 	let value = '';
 	/**
 	 * @type {Response | { id: any; task: string; completed: boolean; }[]}
 	 */
 	let displayTasks;
-	tasks.subscribe((data) => {
-		displayTasks = data;
-	});
+	// tasks.subscribe((data) => {
+	// 	displayTasks = data;
+	// });
 
 	const addTasktoList = () => {
 		/**
@@ -27,8 +27,10 @@
 		value = '';
 	};
 
-	onMount(async () => {
-		displayTasks = await get_data();
+	onMount(() => {
+		tasks.subscribe((data) => {
+			displayTasks = data;
+		});
 	});
 </script>
 

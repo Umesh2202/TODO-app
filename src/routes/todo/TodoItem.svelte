@@ -6,9 +6,8 @@
 	import { tasks } from '../stores.js';
 
 	export let task;
-	let displayTasks;
+	let displayTasks = tasks;
 	let completed = task['completed'];
-	let delete_flag = false;
 
 	const toggleCompleted = () => {
 		completed = !completed;
@@ -22,15 +21,15 @@
 	};
 
 	const deletetodo = () => {
-		// const item = document.getElementsByClassName('item');
-		delete_flag = true;
 		delete_data(task['id']);
 		displayTasks = displayTasks.filter((el) => el.id !== task['id']);
 		tasks.set(displayTasks);
 	};
 
-	onMount(async () => {
-		displayTasks = await get_data();
+	onMount(() => {
+		tasks.subscribe((data) => {
+			displayTasks = data;
+		});
 	});
 </script>
 
