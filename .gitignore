@@ -25,4 +25,4 @@ _output
 .prettierignore
 .eslintignore
 .eslintrc.cjs
-.prettierc
+.prettierrc
