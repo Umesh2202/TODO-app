@@ -14,6 +14,12 @@ git clone git@github.com:Umesh2202/TODO-app.git && cd TODO-app
 ```
 code .
 ```
+Navigate to the frontend folder
+
+```
+cd frontend
+```
+
 
 <p>Install dependencies for frontend</p>
 
