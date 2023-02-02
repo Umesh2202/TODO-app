@@ -15,13 +15,13 @@ import {
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyApS8fjXbRVddqbOA7ccbv1qDdGTkt8zZA",
-  authDomain: "todo-list-42292.firebaseapp.com",
-  projectId: "todo-list-42292",
-  storageBucket: "todo-list-42292.appspot.com",
-  messagingSenderId: "415826039101",
-  appId: "1:415826039101:web:8f44946b78943a36773554",
-  measurementId: "G-89XQ42PXCG",
+  apiKey: process.env.APIKEY,
+  authDomain: process.env.AUTHDOMAIN,
+  projectId: process.env.PROJECTID,
+  storageBucket: process.env.STORAGEBUCKET,
+  messagingSenderId: process.env.MESSAGINGSENDERID,
+  appId: process.env.APPID,
+  measurementId: process.env.MESUREMENTID,
 };
 
 const server = express();
