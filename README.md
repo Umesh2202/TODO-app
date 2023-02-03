@@ -23,10 +23,10 @@ cd frontend
 ```
 
 
-<p>Install dependencies for frontend</p>
+Install dependencies for frontend
 
 ```
-npm i && yarn
+yarn
 ```
 
 Navigate to the backend folder
@@ -35,7 +35,7 @@ Navigate to the backend folder
 cd backend
 ```
 
-Install dependencies for frontend
+Install dependencies for backend
 
 ```
 npm i
