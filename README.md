@@ -38,7 +38,7 @@ cd backend
 Install dependencies for backend
 
 ```
-npm i
+yarn
 ```
 
 Open the file **server.mjs**
