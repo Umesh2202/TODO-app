@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-node_modules
-README.md
-=======
 node_modules
 README.md
 .env
 .env.test
->>>>>>> dev
