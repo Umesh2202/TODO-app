@@ -2,6 +2,8 @@
 
 <h3>A simple todo list app made in svelte and firebase</h3>
 
+<h2>You must have a firebase account to run this app</h2>
+
 <h3>How to use</h3>
 <p>Clone the repository & navigate in</p>
 
