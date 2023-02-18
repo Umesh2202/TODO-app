@@ -20,13 +20,18 @@ specifiers:
   vitest: ^0.25.3
 
 dependencies:
+<<<<<<< HEAD:pnpm-lock.yaml
   axios: 1.3.3
+=======
+  axios: 1.3.2
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
   firebase: 9.17.1
   node: 19.6.0
   railway: 2.0.17
 
 devDependencies:
   '@playwright/test': 1.30.0
+<<<<<<< HEAD:pnpm-lock.yaml
   '@sveltejs/adapter-auto': 1.0.3_@sveltejs+kit@1.7.2
   '@sveltejs/kit': 1.7.2_svelte@3.55.1+vite@4.1.2
   eslint: 8.34.0
@@ -38,6 +43,19 @@ devDependencies:
   svelte-check: 2.10.3_svelte@3.55.1
   typescript: 4.9.5
   vite: 4.1.2
+=======
+  '@sveltejs/adapter-auto': 1.0.2_@sveltejs+kit@1.3.10
+  '@sveltejs/kit': 1.3.10_svelte@3.55.1+vite@4.1.1
+  eslint: 8.33.0
+  eslint-config-prettier: 8.6.0_eslint@8.33.0
+  eslint-plugin-svelte3: 4.0.0_4omm2ewoudhgnmf7aocafatnc4
+  prettier: 2.8.3
+  prettier-plugin-svelte: 2.9.0_kdmmghgdi3ngrsq6otxkjilbry
+  svelte: 3.55.1
+  svelte-check: 2.10.3_svelte@3.55.1
+  typescript: 4.9.5
+  vite: 4.1.1
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
   vitest: 0.25.8
 
 packages:
@@ -731,8 +749,13 @@ packages:
     resolution: {integrity: sha512-H9l79u4kJ2PVSxUNA08HMYAnUBLj9v6KjYQ7SQ71hOZcEXhShE/y5iQCesP8+6/Ik/7i2O0a10bPquIcYfufog==}
     engines: {node: ^8.13.0 || >=10.10.0}
     dependencies:
+<<<<<<< HEAD:pnpm-lock.yaml
       '@grpc/proto-loader': 0.7.5
       '@types/node': 18.14.0
+=======
+      '@grpc/proto-loader': 0.7.4
+      '@types/node': 18.11.19
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     dev: false
 
   /@grpc/proto-loader/0.6.13:
@@ -747,15 +770,24 @@ packages:
       yargs: 16.2.0
     dev: false
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /@grpc/proto-loader/0.7.5:
     resolution: {integrity: sha512-mfcTuMbFowq1wh/Rn5KQl6qb95M21Prej3bewD9dUQMurYGVckGO/Pbe2Ocwto6sD05b/mxZLspvqwx60xO2Rg==}
+=======
+  /@grpc/proto-loader/0.7.4:
+    resolution: {integrity: sha512-MnWjkGwqQ3W8fx94/c1CwqLsNmHHv2t0CFn+9++6+cDphC1lolpg9M2OU0iebIjK//pBNX9e94ho+gjx6vz39w==}
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     engines: {node: '>=6'}
     hasBin: true
     dependencies:
       '@types/long': 4.0.2
       lodash.camelcase: 4.3.0
       long: 4.0.0
+<<<<<<< HEAD:pnpm-lock.yaml
       protobufjs: 7.2.2
+=======
+      protobufjs: 7.2.1
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
       yargs: 16.2.0
     dev: false
 
@@ -821,7 +853,11 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
+<<<<<<< HEAD:pnpm-lock.yaml
       '@types/node': 18.14.0
+=======
+      '@types/node': 18.11.19
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
       playwright-core: 1.30.0
     dev: true
 
@@ -872,6 +908,7 @@ packages:
     resolution: {integrity: sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==}
     dev: false
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /@sveltejs/adapter-auto/1.0.3_@sveltejs+kit@1.7.2:
     resolution: {integrity: sha512-hc7O12YQqvZ1CD4fo1gMJuPzBZvuoG5kwxb2RRoz4fVoB8B2vuPO2cY751Ln0G6T/HMrAf8kCqw6Pg+wbxcstw==}
     peerDependencies:
@@ -883,6 +920,19 @@ packages:
 
   /@sveltejs/kit/1.7.2_svelte@3.55.1+vite@4.1.2:
     resolution: {integrity: sha512-qU/kbupIhsA1JA0GIN4cGa6XrhzPc99Z4agsEDeGPMy7qQqYCuFcIL2MLEH+tfqPUCu4m3FQ6ULVSUIVCnHj+A==}
+=======
+  /@sveltejs/adapter-auto/1.0.2_@sveltejs+kit@1.3.10:
+    resolution: {integrity: sha512-UXpEO/gutERZnD+Z5Vi4J/ifD3WSRuCI7xwtLJTcKNQvJ6t5Xsj1X3Mw2F8Vv/XTUuxf7xPLYUgThU331r0Y9w==}
+    peerDependencies:
+      '@sveltejs/kit': ^1.0.0
+    dependencies:
+      '@sveltejs/kit': 1.3.10_svelte@3.55.1+vite@4.1.1
+      import-meta-resolve: 2.2.1
+    dev: true
+
+  /@sveltejs/kit/1.3.10_svelte@3.55.1+vite@4.1.1:
+    resolution: {integrity: sha512-I3DgWCwTYbTz4ZPCJIRkSDrKkMu0bsdk6ghqsOBVNqesf1wBdTdfkXhag3ESWgIEjUV3VUIWPQF7fnt7328mhQ==}
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     engines: {node: ^16.14 || >=18}
     hasBin: true
     requiresBuild: true
@@ -890,6 +940,7 @@ packages:
       svelte: ^3.54.0
       vite: ^4.0.0
     dependencies:
+<<<<<<< HEAD:pnpm-lock.yaml
       '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.55.1+vite@4.1.2
       '@types/cookie': 0.5.1
       cookie: 0.5.0
@@ -897,19 +948,37 @@ packages:
       esm-env: 1.0.0
       kleur: 4.1.5
       magic-string: 0.29.0
+=======
+      '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.55.1+vite@4.1.1
+      '@types/cookie': 0.5.1
+      cookie: 0.5.0
+      devalue: 4.2.3
+      esm-env: 1.0.0
+      kleur: 4.1.5
+      magic-string: 0.27.0
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
       mime: 3.0.0
       sade: 1.8.1
       set-cookie-parser: 2.5.1
       sirv: 2.0.2
       svelte: 3.55.1
       tiny-glob: 0.2.9
+<<<<<<< HEAD:pnpm-lock.yaml
       undici: 5.19.1
       vite: 4.1.2
+=======
+      undici: 5.16.0
+      vite: 4.1.1
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     transitivePeerDependencies:
       - supports-color
     dev: true
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /@sveltejs/vite-plugin-svelte/2.0.2_svelte@3.55.1+vite@4.1.2:
+=======
+  /@sveltejs/vite-plugin-svelte/2.0.2_svelte@3.55.1+vite@4.1.1:
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     resolution: {integrity: sha512-xCEan0/NNpQuL0l5aS42FjwQ6wwskdxC3pW1OeFtEKNZwRg7Evro9lac9HesGP6TdFsTv2xMes5ASQVKbCacxg==}
     engines: {node: ^14.18.0 || >= 16}
     peerDependencies:
@@ -922,8 +991,13 @@ packages:
       magic-string: 0.27.0
       svelte: 3.55.1
       svelte-hmr: 0.15.1_svelte@3.55.1
+<<<<<<< HEAD:pnpm-lock.yaml
       vite: 4.1.2
       vitefu: 0.2.4_vite@4.1.2
+=======
+      vite: 4.1.1
+      vitefu: 0.2.4_vite@4.1.1
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -954,11 +1028,19 @@ packages:
     resolution: {integrity: sha512-M2BLHQdEmDmH671h0GIlOQQJrgezd1vNqq7PVj1VOsHZ2uQQb4iPiQIl0SlMdhxZPUsLIfEklmeEHXg8DJRewA==}
     deprecated: This is a stub types definition. minipass provides its own type definitions, so you do not need this installed.
     dependencies:
+<<<<<<< HEAD:pnpm-lock.yaml
       minipass: 4.0.3
     dev: false
 
   /@types/node/18.14.0:
     resolution: {integrity: sha512-5EWrvLmglK+imbCJY0+INViFWUHg1AHel1sq4ZVSfdcNqGy9Edv3UB9IIzzg+xPaUcAgZYcfVs2fBcwDeZzU0A==}
+=======
+      minipass: 4.0.1
+    dev: false
+
+  /@types/node/18.11.19:
+    resolution: {integrity: sha512-YUgMWAQBWLObABqrvx8qKO1enAvBUdjZOAWQ5grBAkp5LQv45jBvYKZ3oFS9iKRCQyFjqw6iuEa1vmFqtxYLZw==}
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -971,14 +1053,22 @@ packages:
   /@types/sass/1.43.1:
     resolution: {integrity: sha512-BPdoIt1lfJ6B7rw35ncdwBZrAssjcwzI5LByIrYs+tpXlj/CAkuVdRsgZDdP4lq5EjyWzwxZCqAoFyHKFwp32g==}
     dependencies:
+<<<<<<< HEAD:pnpm-lock.yaml
       '@types/node': 18.14.0
+=======
+      '@types/node': 18.11.19
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     dev: true
 
   /@types/tar/4.0.5:
     resolution: {integrity: sha512-cgwPhNEabHaZcYIy5xeMtux2EmYBitfqEceBUi2t5+ETy4dW6kswt6WX4+HqLeiiKOo42EXbGiDmVJ2x+vi37Q==}
     dependencies:
       '@types/minipass': 3.3.5
+<<<<<<< HEAD:pnpm-lock.yaml
       '@types/node': 18.14.0
+=======
+      '@types/node': 18.11.19
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     dev: false
 
   /@types/yoga-layout/1.9.2:
@@ -1077,8 +1167,13 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /axios/1.3.3:
     resolution: {integrity: sha512-eYq77dYIFS77AQlhzEL937yUBSepBfPIe8FcgEDN35vMNZKMrs81pgnyrQpwfy4NF4b4XWX1Zgx7yX+25w8QJA==}
+=======
+  /axios/1.3.2:
+    resolution: {integrity: sha512-1M3O703bYqYuPhbHeya5bnhpYVsDDRyQSabNja04mZtboLNSuZ4YrltestrLXfHgmzua4TpUqRiVKbiQuo2epw==}
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     dependencies:
       follow-redirects: 1.15.2
       form-data: 4.0.0
@@ -1347,8 +1442,13 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /devalue/4.3.0:
     resolution: {integrity: sha512-n94yQo4LI3w7erwf84mhRUkUJfhLoCZiLyoOZ/QFsDbcWNZePrLwbQpvZBUG2TNxwV3VjCKPxkiiQA6pe3TrTA==}
+=======
+  /devalue/4.2.3:
+    resolution: {integrity: sha512-JG6Q248aN0pgFL57e3zqTVeFraBe+5W2ugvv1mLXsJP6YYIYJhRZhAl7QP8haJrqob6X10F9NEkuCvNILZTPeQ==}
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     dev: true
 
   /doctrine/3.0.0:
@@ -1422,22 +1522,37 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /eslint-config-prettier/8.6.0_eslint@8.34.0:
+=======
+  /eslint-config-prettier/8.6.0_eslint@8.33.0:
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     resolution: {integrity: sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
     dependencies:
+<<<<<<< HEAD:pnpm-lock.yaml
       eslint: 8.34.0
     dev: true
 
   /eslint-plugin-svelte3/4.0.0_dbthnr4b2bdkhyiebwn7su3hnq:
+=======
+      eslint: 8.33.0
+    dev: true
+
+  /eslint-plugin-svelte3/4.0.0_4omm2ewoudhgnmf7aocafatnc4:
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     resolution: {integrity: sha512-OIx9lgaNzD02+MDFNLw0GEUbuovNcglg+wnd/UY0fbZmlQSz7GlQiQ1f+yX0XvC07XPcDOnFcichqI3xCwp71g==}
     peerDependencies:
       eslint: '>=8.0.0'
       svelte: ^3.2.0
     dependencies:
+<<<<<<< HEAD:pnpm-lock.yaml
       eslint: 8.34.0
+=======
+      eslint: 8.33.0
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
       svelte: 3.55.1
     dev: true
 
@@ -1449,13 +1564,21 @@ packages:
       estraverse: 5.3.0
     dev: true
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /eslint-utils/3.0.0_eslint@8.34.0:
+=======
+  /eslint-utils/3.0.0_eslint@8.33.0:
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     resolution: {integrity: sha512-uuQC43IGctw68pJA1RgbQS8/NP7rch6Cwd4j3ZBtgo4/8Flj4eGE7ZYSZRN3iq5pVUv6GPdW5Z1RFleo84uLDA==}
     engines: {node: ^10.0.0 || ^12.0.0 || >= 14.0.0}
     peerDependencies:
       eslint: '>=5'
     dependencies:
+<<<<<<< HEAD:pnpm-lock.yaml
       eslint: 8.34.0
+=======
+      eslint: 8.33.0
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
       eslint-visitor-keys: 2.1.0
     dev: true
 
@@ -1469,8 +1592,13 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /eslint/8.34.0:
     resolution: {integrity: sha512-1Z8iFsucw+7kSqXNZVslXS8Ioa4u2KM7GPwuKtkTFAqZ/cHMcEaR+1+Br0wLlot49cNxIiZk5wp8EAbPcYZxTg==}
+=======
+  /eslint/8.33.0:
+    resolution: {integrity: sha512-WjOpFQgKK8VrCnAtl8We0SUOy/oVZ5NHykyMiagV1M9r8IFpIJX7DduK6n1mpfhlG7T1NLWm2SuD8QB7KFySaA==}
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -1485,10 +1613,17 @@ packages:
       doctrine: 3.0.0
       escape-string-regexp: 4.0.0
       eslint-scope: 7.1.1
+<<<<<<< HEAD:pnpm-lock.yaml
       eslint-utils: 3.0.0_eslint@8.34.0
       eslint-visitor-keys: 3.3.0
       espree: 9.4.1
       esquery: 1.4.2
+=======
+      eslint-utils: 3.0.0_eslint@8.33.0
+      eslint-visitor-keys: 3.3.0
+      espree: 9.4.1
+      esquery: 1.4.0
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
       esutils: 2.0.3
       fast-deep-equal: 3.1.3
       file-entry-cache: 6.0.1
@@ -1530,8 +1665,13 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /esquery/1.4.2:
     resolution: {integrity: sha512-JVSoLdTlTDkmjFmab7H/9SL9qGSyjElT3myyKp7krqjVFQCDLmj1QFaCLRFBszBKI0XVZaiiXvuPIX3ZwHe1Ng==}
+=======
+  /esquery/1.4.0:
+    resolution: {integrity: sha512-cCDispWt5vHHtwMY2YrAQ4ibFkAL8RbH5YGBnZBc90MolvvfkkQcJro/aZiAQUlQ3qgrYS6D6v8Gc5G5CQsc9w==}
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     engines: {node: '>=0.10'}
     dependencies:
       estraverse: 5.3.0
@@ -1916,7 +2056,11 @@ packages:
       lodash: 4.17.21
       patch-console: 1.0.0
       react: 16.14.0
+<<<<<<< HEAD:pnpm-lock.yaml
       react-devtools-core: 4.27.2
+=======
+      react-devtools-core: 4.27.1
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
       react-reconciler: 0.26.2_react@16.14.0
       scheduler: 0.20.2
       signal-exit: 3.0.7
@@ -2123,6 +2267,7 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /magic-string/0.29.0:
     resolution: {integrity: sha512-WcfidHrDjMY+eLjlU+8OvwREqHwpgCeKVBUpQ3OhYYuvfaYCUgcbuBzappNzZvg/v8onU3oQj+BYpkOJe9Iw4Q==}
     engines: {node: '>=12'}
@@ -2130,6 +2275,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
+=======
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
   /map-obj/1.0.1:
     resolution: {integrity: sha512-7N/q3lyZ+LVCp7PzuxrJr4KMbBE2hW7BT7YNia330OFxIf4d3r5zVpicP2650l7CPN6RM9zOJRl3NGpqSiw3Eg==}
     engines: {node: '>=0.10.0'}
@@ -2212,8 +2359,13 @@ packages:
       kind-of: 6.0.3
     dev: false
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /minimist/1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
+=======
+  /minimist/1.2.7:
+    resolution: {integrity: sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==}
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
 
   /minipass/3.3.6:
     resolution: {integrity: sha512-DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==}
@@ -2222,8 +2374,13 @@ packages:
       yallist: 4.0.0
     dev: false
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /minipass/4.0.3:
     resolution: {integrity: sha512-OW2r4sQ0sI+z5ckEt5c1Tri4xTgZwYDxpE54eqWlQloQRoWtXjqt9udJ5Z4dSv7wK+nfFI7FRXyCpBSft+gpFw==}
+=======
+  /minipass/4.0.1:
+    resolution: {integrity: sha512-V9esFpNbK0arbN3fm2sxDKqMYgIp7XtVdE4Esj+PE4Qaaxdg1wIw48ITQIOn1sc8xXSmUviVL3cyjMqPlrVkiA==}
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     engines: {node: '>=8'}
     dev: false
 
@@ -2239,7 +2396,11 @@ packages:
     resolution: {integrity: sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==}
     hasBin: true
     dependencies:
+<<<<<<< HEAD:pnpm-lock.yaml
       minimist: 1.2.8
+=======
+      minimist: 1.2.7
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     dev: true
 
   /mkdirp/1.0.4:
@@ -2548,18 +2709,31 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /prettier-plugin-svelte/2.9.0_jrsxveqmsx2uadbqiuq74wlc4u:
+=======
+  /prettier-plugin-svelte/2.9.0_kdmmghgdi3ngrsq6otxkjilbry:
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     resolution: {integrity: sha512-3doBi5NO4IVgaNPtwewvrgPpqAcvNv0NwJNflr76PIGgi9nf1oguQV1Hpdm9TI2ALIQVn/9iIwLpBO5UcD2Jiw==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
     dependencies:
+<<<<<<< HEAD:pnpm-lock.yaml
       prettier: 2.8.4
       svelte: 3.55.1
     dev: true
 
   /prettier/2.8.4:
     resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
+=======
+      prettier: 2.8.3
+      svelte: 3.55.1
+    dev: true
+
+  /prettier/2.8.3:
+    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -2588,12 +2762,21 @@ packages:
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
       '@types/long': 4.0.2
+<<<<<<< HEAD:pnpm-lock.yaml
       '@types/node': 18.14.0
       long: 4.0.0
     dev: false
 
   /protobufjs/7.2.2:
     resolution: {integrity: sha512-++PrQIjrom+bFDPpfmqXfAGSQs40116JRrqqyf53dymUMvvb5d/LMRyicRoF1AUKoXVS1/IgJXlEgcpr4gTF3Q==}
+=======
+      '@types/node': 18.11.19
+      long: 4.0.0
+    dev: false
+
+  /protobufjs/7.2.1:
+    resolution: {integrity: sha512-L3pCItypTnPK27+CS8nuhZMYtsY+i8dqdq2vZsYHlG17CnWp1DWPQ/sos0vOKrj1fHEAzo3GBqSHLaeZyKUCDA==}
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     engines: {node: '>=12.0.0'}
     requiresBuild: true
     dependencies:
@@ -2607,7 +2790,11 @@ packages:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
+<<<<<<< HEAD:pnpm-lock.yaml
       '@types/node': 18.14.0
+=======
+      '@types/node': 18.11.19
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
       long: 5.2.1
     dev: false
 
@@ -2664,12 +2851,21 @@ packages:
     dependencies:
       deep-extend: 0.6.0
       ini: 1.3.8
+<<<<<<< HEAD:pnpm-lock.yaml
       minimist: 1.2.8
       strip-json-comments: 2.0.1
     dev: false
 
   /react-devtools-core/4.27.2:
     resolution: {integrity: sha512-8SzmIkpO87alD7Xr6gWIEa1jHkMjawOZ+6egjazlnjB4UUcbnzGDf/vBJ4BzGuWWEM+pzrxuzsPpcMqlQkYK2g==}
+=======
+      minimist: 1.2.7
+      strip-json-comments: 2.0.1
+    dev: false
+
+  /react-devtools-core/4.27.1:
+    resolution: {integrity: sha512-qXhcxxDWiFmFAOq48jts9YQYe1+wVoUXzJTlY4jbaATzyio6dd6CUGu3dXBhREeVgpZ+y4kg6vFJzIOZh6vY2w==}
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     dependencies:
       shell-quote: 1.8.0
       ws: 7.5.9
@@ -2801,8 +2997,13 @@ packages:
       glob: 7.2.3
     dev: true
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /rollup/3.17.0:
     resolution: {integrity: sha512-0zZQ0J4p0ZtTla6l8sheDTUyNfGZQDpU5h0nPHf6xtUXIzKK70LmB2IRR0wLnzaL8a02fjmsJy+XCncbSwOpjg==}
+=======
+  /rollup/3.14.0:
+    resolution: {integrity: sha512-o23sdgCLcLSe3zIplT9nQ1+r97okuaiR+vmAPZPTDYB7/f3tgWIYNyiQveMsZwshBT0is4eGax/HH83Q7CG+/Q==}
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -2894,7 +3095,11 @@ packages:
     hasBin: true
     dependencies:
       buffer-crc32: 0.2.13
+<<<<<<< HEAD:pnpm-lock.yaml
       minimist: 1.2.8
+=======
+      minimist: 1.2.7
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
       sander: 0.5.1
       sourcemap-codec: 1.4.8
     dev: true
@@ -3114,7 +3319,11 @@ packages:
     dependencies:
       chownr: 2.0.0
       fs-minipass: 2.1.0
+<<<<<<< HEAD:pnpm-lock.yaml
       minipass: 4.0.3
+=======
+      minipass: 4.0.1
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
       minizlib: 2.1.2
       mkdirp: 1.0.4
       yallist: 4.0.0
@@ -3148,8 +3357,13 @@ packages:
     engines: {node: '>=14.0.0'}
     dev: true
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /tinyspy/1.1.1:
     resolution: {integrity: sha512-UVq5AXt/gQlti7oxoIg5oi/9r0WpF7DGEVwXgqWSMmyN16+e3tl5lIvTaOpJ3TAtu5xFzWccFRM4R5NaWHF+4g==}
+=======
+  /tinyspy/1.0.2:
+    resolution: {integrity: sha512-bSGlgwLBYf7PnUsQ6WOc6SJ3pGOcd+d8AA6EUnLDDM0kWEstC1JIlSZA3UNliDXhd9ABoS7hiRBDCu+XP/sf1Q==}
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     engines: {node: '>=14.0.0'}
     dev: true
 
@@ -3231,8 +3445,13 @@ packages:
     hasBin: true
     dev: true
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /undici/5.19.1:
     resolution: {integrity: sha512-YiZ61LPIgY73E7syxCDxxa3LV2yl3sN8spnIuTct60boiiRaE1J8mNWHO8Im2Zi/sFrPusjLlmRPrsyraSqX6A==}
+=======
+  /undici/5.16.0:
+    resolution: {integrity: sha512-KWBOXNv6VX+oJQhchXieUznEmnJMqgXMbs0xxH2t8q/FUAWSJvOSr/rMaZKnX5RIVq7JDn0JbP4BOnKG2SGXLQ==}
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     engines: {node: '>=12.18'}
     dependencies:
       busboy: 1.6.0
@@ -3258,8 +3477,13 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: false
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /vite/4.1.2:
     resolution: {integrity: sha512-MWDb9Rfy3DI8omDQySbMK93nQqStwbsQWejXRY2EBzEWKmLAXWb1mkI9Yw2IJrc+oCvPCI1Os5xSSIBYY6DEAw==}
+=======
+  /vite/4.1.1:
+    resolution: {integrity: sha512-LM9WWea8vsxhr782r9ntg+bhSFS06FJgCvvB0+8hf8UWtvaiDagKYWXndjfX6kGl74keHJUcpzrQliDXZlF5yg==}
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -3286,13 +3510,22 @@ packages:
       esbuild: 0.16.17
       postcss: 8.4.21
       resolve: 1.22.1
+<<<<<<< HEAD:pnpm-lock.yaml
       rollup: 3.17.0
+=======
+      rollup: 3.14.0
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /vite/4.1.2_@types+node@18.14.0:
     resolution: {integrity: sha512-MWDb9Rfy3DI8omDQySbMK93nQqStwbsQWejXRY2EBzEWKmLAXWb1mkI9Yw2IJrc+oCvPCI1Os5xSSIBYY6DEAw==}
+=======
+  /vite/4.1.1_@types+node@18.11.19:
+    resolution: {integrity: sha512-LM9WWea8vsxhr782r9ntg+bhSFS06FJgCvvB0+8hf8UWtvaiDagKYWXndjfX6kGl74keHJUcpzrQliDXZlF5yg==}
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -3316,16 +3549,28 @@ packages:
       terser:
         optional: true
     dependencies:
+<<<<<<< HEAD:pnpm-lock.yaml
       '@types/node': 18.14.0
       esbuild: 0.16.17
       postcss: 8.4.21
       resolve: 1.22.1
       rollup: 3.17.0
+=======
+      '@types/node': 18.11.19
+      esbuild: 0.16.17
+      postcss: 8.4.21
+      resolve: 1.22.1
+      rollup: 3.14.0
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
 
+<<<<<<< HEAD:pnpm-lock.yaml
   /vitefu/0.2.4_vite@4.1.2:
+=======
+  /vitefu/0.2.4_vite@4.1.1:
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     resolution: {integrity: sha512-fanAXjSaf9xXtOOeno8wZXIhgia+CZury481LsDaV++lSvcU2R9Ch2bPh3PYFyoHW+w9LqAeYRISVQjUIew14g==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
@@ -3333,7 +3578,11 @@ packages:
       vite:
         optional: true
     dependencies:
+<<<<<<< HEAD:pnpm-lock.yaml
       vite: 4.1.2
+=======
+      vite: 4.1.1
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     dev: true
 
   /vitest/0.25.8:
@@ -3360,7 +3609,11 @@ packages:
     dependencies:
       '@types/chai': 4.3.4
       '@types/chai-subset': 1.3.3
+<<<<<<< HEAD:pnpm-lock.yaml
       '@types/node': 18.14.0
+=======
+      '@types/node': 18.11.19
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
       acorn: 8.8.2
       acorn-walk: 8.2.0
       chai: 4.3.7
@@ -3370,8 +3623,13 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.3.1
       tinypool: 0.3.1
+<<<<<<< HEAD:pnpm-lock.yaml
       tinyspy: 1.1.1
       vite: 4.1.2_@types+node@18.14.0
+=======
+      tinyspy: 1.0.2
+      vite: 4.1.1_@types+node@18.11.19
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/pnpm-lock.yaml
     transitivePeerDependencies:
       - less
       - sass

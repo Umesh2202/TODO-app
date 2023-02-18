@@ -1,8 +1,15 @@
 
 import root from '../root.svelte';
+<<<<<<< HEAD:.svelte-kit/generated/server/internal.js
 import { set_assets, set_building, set_private_env, set_public_env, set_version } from '../../../node_modules/.pnpm/@sveltejs+kit@1.7.2_svelte@3.55.1+vite@4.1.2/node_modules/@sveltejs/kit/src/runtime/shared.js';
 
 set_version("1676730300445");
+=======
+import { set_building, set_paths, set_private_env, set_public_env, set_version } from '../../../node_modules/.pnpm/@sveltejs+kit@1.3.10_svelte@3.55.1+vite@4.1.1/node_modules/@sveltejs/kit/src/runtime/shared.js';
+
+set_paths({"base":"","assets":""});
+set_version("1675609817163");
+>>>>>>> c5b6d806cec80e270efab1e97cf4898ea1064af7:frontend/.svelte-kit/generated/server/internal.js
 
 export const options = {
 	csp: {"mode":"auto","directives":{"upgrade-insecure-requests":false,"block-all-mixed-content":false},"reportOnly":{"upgrade-insecure-requests":false,"block-all-mixed-content":false}},

@@ -26,3 +26,4 @@ _output
 .eslintignore
 .eslintrc.cjs
 .prettierrc
+.env
