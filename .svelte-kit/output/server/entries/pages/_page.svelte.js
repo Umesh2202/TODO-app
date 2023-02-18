@@ -1,10 +1,14 @@
-import { c as create_ssr_component, e as escape, d as null_to_empty, b as subscribe, f as each, h as add_attribute, v as validate_component } from "../../chunks/index.js";
+import { c as create_ssr_component, e as escape, n as null_to_empty, a as subscribe, b as each, d as add_attribute, v as validate_component } from "../../chunks/index3.js";
 import { w as writable } from "../../chunks/index2.js";
 import axios from "axios";
+const get_data = async () => {
+  let data = await axios.get("http://localhost:5173/api/todo");
+  return data.data;
+};
 const tasks = writable([]);
 const fetchTasks = async () => {
-  const data = await axios.get("https://node-todo.up.railway.app/read");
-  tasks.set(data.data);
+  const data = await get_data();
+  tasks.set(data);
 };
 fetchTasks();
 const TodoItem_svelte_svelte_type_style_lang = "";
@@ -25,23 +29,21 @@ const TodoItem = create_ssr_component(($$result, $$props, $$bindings, slots) => 
 });
 const Todos_svelte_svelte_type_style_lang = "";
 const css$1 = {
-  code: "h1.svelte-1qvtinb{margin-bottom:1em;font-size:3rem;color:#0084ff;text-shadow:0.1em 0.1em #ffc400}.todo.svelte-1qvtinb{background:linear-gradient(#ffffff, #f0f0f0);border-radius:10px;width:clamp(calc(10em + 15vw), 50vw, 30em);padding:2em;box-shadow:1em 1em #8f8f8f;margin-bottom:3em}input.svelte-1qvtinb{border:2px solid #e9e9e9;width:calc(60% + 5vw);height:1em;font-size:1.5rem;padding:1em;border-radius:10px;margin-top:1em;display:block}button.svelte-1qvtinb{width:5em;padding:0.5em;border-radius:5px;background-color:#0084ff;color:#ffffff;border:none;font-size:1rem;margin-top:1em;box-shadow:0.3em 0.3em #8f8f8f;transition:all 0.3s}button.svelte-1qvtinb:hover{transform:translateX(0.3em) translateY(0.3em);box-shadow:none}",
+  code: "h1.svelte-10el7hp{margin-bottom:1em;font-size:3rem;color:#0084ff;text-shadow:0.1em 0.1em #ffc400}.todo.svelte-10el7hp{background:linear-gradient(#ffffff, #f0f0f0);border-radius:10px;width:clamp(calc(10em + 15vw), 50vw, 30em);padding:2em;box-shadow:1em 1em #8f8f8f;margin-bottom:3em}input.svelte-10el7hp{border:2px solid #e9e9e9;width:calc(60% + 5vw);height:1em;font-size:1.5rem;padding:1em;border-radius:10px;margin-top:1em;display:block}button.svelte-10el7hp{width:5em;padding:0.5em;border-radius:5px;background-color:#0084ff;color:#ffffff;border:none;font-size:1rem;margin-top:1em;box-shadow:0.3em 0.3em #8f8f8f;transition:all 0.3s}button.svelte-10el7hp:hover{transform:translateX(0.3em) translateY(0.3em);box-shadow:none}",
   map: null
 };
 const Todos = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $tasks, $$unsubscribe_tasks;
   $$unsubscribe_tasks = subscribe(tasks, (value2) => $tasks = value2);
   let value = "";
-  tasks.subscribe((data) => {
-  });
   $$result.css.add(css$1);
   $$unsubscribe_tasks();
-  return `<div class="${"todo svelte-1qvtinb"}"><h1 class="${"svelte-1qvtinb"}">Tasks</h1>
-	${each($tasks, (task) => {
+  return `<div class="${"todo svelte-10el7hp"}"><h1 class="${"svelte-10el7hp"}">Tasks</h1>
+  ${each($tasks, (task) => {
     return `${validate_component(TodoItem, "TodoItem").$$render($$result, { task }, {}, {})}`;
   })}
-	<input type="${"text"}" class="${"svelte-1qvtinb"}"${add_attribute("value", value, 0)}>
-	${`<button class="${"svelte-1qvtinb"}">Add task</button>`}
+  <input type="${"text"}" class="${"svelte-10el7hp"}"${add_attribute("value", value, 0)}>
+  ${`<button class="${"svelte-10el7hp"}">Add task</button>`}
 </div>`;
 });
 const App_svelte_svelte_type_style_lang = "";
