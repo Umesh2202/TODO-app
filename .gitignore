@@ -27,3 +27,4 @@ _output
 .eslintrc.cjs
 .prettierrc
 .env
+.vercel
